@@ -1,0 +1,19 @@
+{
+  "name": "shannon-bindings",
+  "version": "0.1.0",
+  "description": "Shannon cipher node.js bindings",
+  "main": "src/index.js",
+  "gypfile": true,
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "author": "Julien Elbaz",
+  "license": "MIT",
+  "dependencies": {
+    "node-addon-api": "^1.6.2"
+  },
+  "devDependencies": {
+    "node-gyp": "^3.8.0"
+  }
+}
